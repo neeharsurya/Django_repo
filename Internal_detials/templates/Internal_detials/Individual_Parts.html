@@ -19,7 +19,7 @@
         <div class="container-fluid">
             <div class="row">
                 {% for part in Parts %}
-                <div class="col-12 col-md-4 col-lg-4 col-xl-4" style="text-align: center;">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="text-align: center;">
                     {% comment %} <a href="{% url part.name %}"> {% endcomment %}
                     <img src="{{baseUrl}}/{{part.img}}" alt="No image" width='200px' height='200px'>
                     {% comment %} </a> {% endcomment %}
